@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Daniel Choi</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/main.css')}}" />
+    <meta property="og:title" content="Daniel Choi's personal website" />
+    <meta property="og:description" content="To share insights and knowledge on sustainable operations management" />
+    <meta property="og:image" content="{{url_for('static',filename='images/index_bio.jpg')}}" />
+</head>
+
+<body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+            <a href="/" class="logo"><strong>Daniel Choi</strong></a>
+            <nav id="nav">
+                <a href="/">Home</a>
+                <a href="/research">Research</a>
+                <a href="/teaching">Teaching</a>
+                <a href="/link">Link</a>
+            </nav>
+            <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section id="banner">
+
+        <div class="image round left">
+            <p><img style="max-width: 40%;margin-left: 100px" src="{{url_for('static',filename='images/index_bio.jpg')}}" alt="Daniel"></p>
+        </div>
+
+        <div class="inner">
+
+            <h2 style="margin-bottom: 50px;">Hi! I am a PhD student majoring in Operations Management at Georgia Institute of Technology. My research interest is in the Sustainable OM and Platform Businesses. I want to derive Pareto-improving solutions that can make business and society
+                more sustainable. </h2>
+
+        </div>
+
+        <div class="flex">
+            <h3>
+                <b>Education</b><br> Ph.D. Student, Operations Management, Georgia institute of Technology (Present) <br> M.S. Green Business & Policy, KAIST (2017)<br> B.S. Environmental Engineering, UNIST (2015) <br>
+                <br> <b>Work experience</b>
+                <br>Lecturer, Department of Management, Korea Army Academy at Yeongcheon (2017 ~ 2020)
+                <br>Researcher, Sustainable Development Research Center, KAIST (2017)
+            </h3>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="copyright">
+                &copy; 2020 Daniel Choi
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
