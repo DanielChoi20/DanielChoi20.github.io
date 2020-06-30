@@ -4,7 +4,7 @@ from pymongo import MongoClient           # pymongo를 임포트 하기(패키�
 
 app = Flask(__name__)
 ckeditor = CKEditor(app)
-client = MongoClient('localhost', 27017)  # mongoDB는 27017 포트로 돌아갑니다.
+# client = MongoClient('localhost', 27017)  # mongoDB는 27017 포트로 돌아갑니다.
 # client = MongoClient('mongodb://test:test@13.124.228.107', 27017)  # mongoDB는 27017 포트로 돌아갑니다.
 
 db = client.reviewdb                      # 'dbsparta'라는 이름의 db를 만듭니다.
