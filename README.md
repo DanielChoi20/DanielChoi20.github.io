@@ -20,8 +20,5 @@ Then open `http://localhost:8000/`. The site uses plain HTML and CSS and require
 
 ## Content
 
-- `index.html` — homepage and research overview
-- `research.html` — research streams and projects
-- `publications.html` — working papers and published work
-- `teaching.html` — teaching philosophy and record
+- `index.html` — single-page website with About, Research, Teaching, Leadership & Impact, and Contact sections
 - `files/Daniel_Choi_CV.pdf` — downloadable CV
