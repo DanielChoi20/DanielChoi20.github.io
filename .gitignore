@@ -1,0 +1,14 @@
+# Local editor settings
+.vscode/
+.idea/
+
+# Python environments and cache files
+myenv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Operating-system files
+.DS_Store
+Thumbs.db
