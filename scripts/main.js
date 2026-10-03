@@ -31,7 +31,7 @@ if (testimonialSlider) {
   function startRotation() {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     clearInterval(rotationTimer);
-    rotationTimer = setInterval(() => showSlide(currentSlide + 1), 7000);
+    rotationTimer = setInterval(() => showSlide(currentSlide + 1), 4000);
   }
 
   previousButton.addEventListener('click', () => {
