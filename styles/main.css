@@ -15,5 +15,6 @@
 .publication-list .paper-abstract{margin-top:8px}.publication-list .paper-abstract p{margin:14px 0 8px}.publication-list li+li{margin-top:8px}
 .publication-list .publication-abstract summary{display:flex;align-items:center;gap:16px;text-decoration:none}.publication-list .publication-abstract summary:after{content:""}.publication-list .publication-abstract summary>span{text-decoration:underline;text-underline-offset:4px}.publication-list .publication-abstract summary>span:after{content:" ▾"}.publication-list .publication-abstract[open] summary>span:after{content:" ▴"}.publication-list .publication-abstract summary>a{font-size:.9rem}
 .inline-abstract summary{display:flex;align-items:center;gap:16px;text-decoration:none}.inline-abstract summary:after{content:""}.inline-abstract summary>span{text-decoration:underline;text-underline-offset:4px}.inline-abstract summary>span:after{content:" ▾"}.inline-abstract[open] summary>span:after{content:" ▴"}.inline-abstract summary>a{color:var(--green);font-size:.9rem;font-weight:750;text-underline-offset:4px}
+.hero-copy .about-copy+.about-copy{margin-top:1em}
 @media (max-width:620px){.publication-list{padding:14px}.publication-list li{padding-left:42px}.course-result{white-space:normal}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
